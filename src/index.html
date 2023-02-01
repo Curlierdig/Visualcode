@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>first weeb</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:500px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Esfera del dragon 7 estrellas</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chango</td>
+                <td>$29.99</td>
+            </tr>
+            <tr>
+                <td>Chango mas grande que el chango normal</td>
+                <td>$59.99</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total:$89.98</td>
+        </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type:lower-roman">sub elemento  1</li>
+                <li style="list-style-type:lower-roman">sub elemento  2</li>
+                <li style="list-style-type:lower-roman">sub elemento  3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+    <form action="/formulario" method="POST">
+        <label for="nombre">Nombre</label>
+        <input value="Flaco" type="text" id="nombre" name="nombre" placeholder="Escribe aqui perrio "  />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Feli" type="text" id="apellido" name="apellido" placeholder="Escribe aqui tu apellido bro " />
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea  cols="50" rows="10" id="comentario" placeholder="ingrese comentario " name="comentario ">este es un valor por defecto</textarea>
+        <br>
+        <button type="button"><img src="img/Foto.png"/>Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Tercer heading</h3>
+    <h4>Cuarto</h4>
+    <h5>Quinto</h5>
+    <h6>último heading</h6>
+    <p>Me gusta mucho la comida :D </p>
+    <p>Pero no la picante</p>
+    <hr>
+    <h2>No se</h2>
+    <p>Realmente no se de <span style="color:blue">que hablar en</span> 
+        este texto solo para rellenar<br>
+        estoy diciendo lo primero que<br> se me viene a la mente pero 
+        ya veremos si algo mas se me ocurre que por ahora 
+        no es asi.
+    </p>
+    <!-- Este texto es un comentario solamente
+    y no sera visible -->
+    <a target="_blank" href="https://www.google.com">Ir a google</a>
+    <img src="img/Foto.png" width="350" height="350"/>
+</body>
+</html>
